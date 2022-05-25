@@ -1,0 +1,30 @@
+$$
+arrray
+
+## array has a fixed size meaning once the size is given to it, it cannot be changed i.e. you can’t shrink it neither can you expand it. The reason was that for expanding, if we change the size we can’t be sure ( it’s not possible every time) that we get the next memory location to us as free. The shrinking will not work because the array, when declared, gets memory statically allocated, and thus compiler is the only one can destroy it.
+
+$$
+advantages
+
+## Arrays allow random access to elements. This makes accessing elements by position faster.
+## Arrays have better cache locality that makes a pretty big difference in performance.
+## Arrays represent multiple data items of the same type using a single name.
+
+
+$$
+disadvantages
+
+## You can’t change the size i.e. once you have declared the array you can’t change its size because of static memory allocation. Here Insertion(s) and deletion(s) are difficult as the elements are stored in consecutive memory locations and the shifting operation is costly too.
+
+$$
+application
+
+## 
+Array stores data elements of the same data type.
+Used in solving matrices problem
+Applied as lookup table in computer.
+Databases record are also implemented by array.
+Helps in implementing sorting algorithm.
+Different variable of same type can be saved under one name.
+Arrays can be used for CPU scheduling.
+Used to Implement other data structures like Stacks, Queues, Heaps, Hash tables, etc.
