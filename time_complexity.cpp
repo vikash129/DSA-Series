@@ -32,3 +32,7 @@ Execution times: Not a good measure as execution times are specific to a particu
 A number of statements executed: Not a good measure, since the number of statements varies with the programming language as well as the style of the individual programmer.
 Ideal solution:  Let us assume that we express the running time of a given algorithm as a function of the input size n (i.e., f(n)) and compare these different functions corresponding to running times. This kind of comparison is independent of machine time, programming style, etc. 
 Therefore, ideal solution can be used to compare algorithms.
+
+  1.worst case : O(bih oh) notation : O(n) 
+  2.best case :  big omega notaion  : O(1) constant
+  3.average case bih theta notation  :  ( 1 + 2 + 3 + ... n) / n => (n (n+1 ) /  2 ) / n
